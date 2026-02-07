@@ -99,4 +99,4 @@ services:
 🕐定时备份禁用（个人家庭使用用不上）<br>
 👥人数限制5人（个人家庭使用已足够）<br>
 
-团队版激活码可联系作者捐赠获取https://t.me/NextEmby
+团队版激活码可联系作者捐赠获取https://t.me/NextEmbyChat
