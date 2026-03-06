@@ -76,7 +76,6 @@ docker run -d \
 <br>
 
 ```
-version: '3.8'
 services:
   nextemby:
     image: nextemby/nextemby:latest
