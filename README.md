@@ -70,6 +70,7 @@ docker run -d \
   --restart=unless-stopped \
   --network host \
   -e TZ=Asia/Shanghai \
+  -e PORT=8091 \
   -v <配置文件存放路径>:/Config \
   nextemby/nextemby:latest
 ```
@@ -84,6 +85,7 @@ services:
     network_mode: host
     environment:
       - TZ=Asia/Shanghai
+      - PORT=8091
     volumes:
       - <配置文件存放路径>:/Config
 ```
@@ -99,5 +101,6 @@ services:
 因为人少无法建立起庞大的秒传记录池<br>
 
 为防止泛滥，所以团队版门槛设置较高。<br>
-若有项目受益支持者，可捐赠领取团队版激活码。<br>
+若有项目受益支持者，可捐赠领取团队版激活码。
+<br>
 BUG反馈交流群https://t.me/NextEmbyChat
